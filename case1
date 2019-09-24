@@ -1,0 +1,27 @@
+/*
+	switch(c){
+		case const: statement; break;
+		case const: statement; break;
+		case const: statement; break;
+		case const: statement; break;
+		default:
+			statement;
+	}
+*/
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	char let;
+	cout << "\nEnter a letter ";
+	cin >> let;
+	//B b, R r, G g
+	switch(let){
+		case 'B': case 'b':	cout << "Blue";break;
+		case 'R': case 'r':	cout << "Red";break;	
+		case 'G': case 'g':	cout << "Green";break;
+		default: cout << "Invalid";	
+	}	
+	return 0;
+}
