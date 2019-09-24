@@ -1,5 +1,6 @@
 //uses the Arithmetic Operators
 //+,-,*,/,%
+//https://github.com/hadjitejuco/ccs003n04
 #include <iostream>
 using namespace std;
 int main(){
@@ -24,6 +25,5 @@ int main(){
 	}
 	cout << "\n " <<a << " " << op << b << " " << res;
 	
-	else 
 	return 0;
 }
