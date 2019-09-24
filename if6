@@ -1,0 +1,31 @@
+/*
+	OR ||
+	Letter		Color
+	B b			Blue
+	R r 		Red
+	G g			Green
+	--- Invalid
+*/
+#include <iostream>
+using namespace std;
+int main()
+{
+	char let;
+	cout << "\nEnter a letter ";
+	cin >> let;
+	if (let=='B'||let=='b')
+		cout << "Blue";
+	else if (let == 'R'||let=='r')
+		cout << "Red";
+	else if (let == 'G'|| let=='g')
+		cout << "Green";
+	else 
+		cout << "Invalid";	
+	return 0;
+}
+
+
+
+
+
+
