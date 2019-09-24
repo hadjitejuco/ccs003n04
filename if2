@@ -1,0 +1,29 @@
+//uses the Arithmetic Operators
+//+,-,*,/,%
+#include <iostream>
+using namespace std;
+int main(){
+	char op;	//operator
+	int a,b,res;	
+	cout << "\nEnter two numbers: ";
+	cin >> a >> b;
+	cout << "Enter the operator + - * / % ";
+	cin >> op;
+	if (op=='+'){
+		res = a+b;
+	}else if (op=='-'){
+		res = a-b;
+	}else if (op=='*'){
+		res = a*b;
+	}else if (op=='/'){
+		res = a/b;
+	}else if (op == '%'){
+		res = a%b;
+	}else{
+		cout << "\nWrong Operator";
+	}
+	cout << "\n " <<a << " " << op << b << " " << res;
+	
+	else 
+	return 0;
+}
