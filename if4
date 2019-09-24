@@ -1,0 +1,31 @@
+/*
+	Range			Grade
+	90 - Above		A
+	80-89			B
+	70-79			C
+	60-69			D
+	below 60		F		
+*/
+#include <iostream>
+using namespace std;
+int main(){
+	int g;
+	cout << "\nEnter grade: ";
+	cin >> g;
+	if (g>=90)
+		cout << "\nGrade is A";
+	else if (g>=80)
+		cout << "\nGrade is B";
+	else if (g>=70)
+		cout << "\nGrade is C";
+	else if (g>=60)
+		cout << "\nGrade is D";
+	else
+		cout << "\nGrade is F";
+	return 0;
+}
+
+
+
+
+
