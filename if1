@@ -1,0 +1,29 @@
+//COMPUTE for temp
+//1  F - C
+//2  C - F
+#include <iostream>
+using namespace std;
+int main(){
+	//int choice;
+	char choice;
+	float temp, cnvtemp;
+	cout << "\nTemp convertion menu";
+	cout << "\n1. Farenheit to Celsius.";
+	cout << "\n2. Celsius to Farenheit";
+	cout << "Enter your choice: ";
+	cin >> choice;
+	if (choice=='1'){
+		cout << "Enter temp: ";
+		cin >> temp;
+		cnvtemp = (temp-32)/1.8;
+		cout << "The temp in celcius is"<<cnvtemp;
+	}else{
+		cout << "Enter temp: ";
+		cin >> temp;
+		cnvtemp = (1.8 * temp)+32;
+		cout << "The temp in farenheit is"<<cnvtemp;
+	}
+	
+	
+	return 0;
+}
